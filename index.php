@@ -2,32 +2,29 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F1 Hub</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
     <div id="wrapper-div">
         <header id="header-container">
-            <div class="header-row">
-                <div id="logo-div">
-                    <img src="assets/img/FIA.png" alt="Logo" width="70">
-                </div>
-                <div class="top-red-bar"></div>
-                <nav id="nav-div">
-                    <a href="https://www.formula1.com/en/teams" target="_blank">Teams</a>
-                    <a href="https://www.formula1.com/" target="_blank">F1.com</a>
-                    <a href="https://www.fia.com/" target="_blank">FIA.com</a>
-                </nav>
+            <div id="logo-div">
+                <img src="../assets/img/FIA.png" alt="Logo" width="70">
             </div>
+            <nav id="nav-div">
+                <a href="../index.php">Home</a>
+                <a href="https://www.formula1.com/en/teams" target="_blank">Teams</a>
+                <a href="https://www.formula1.com/" target="_blank">F1.com</a>
+                <a href="https://www.fia.com/" target="_blank">FIA.com</a>
+            </nav>
         </header>
-        <main>
+            <main>
             <h1>Welcome to the F1 World Constructors' Championship Hub</h1>
             <h3>This is all you need to know about the current season in Formula 1.</h3>
             <h3>Please select what team you want to check.</h3>
@@ -67,7 +64,7 @@ session_start();
             </section>
         </main>
         <footer>
-            <p>&copy; <?php echo date('Y'); ?> F1 Hub. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> My Website. All rights reserved.</p>
         </footer>
     </div>
 </body>
