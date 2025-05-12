@@ -1,0 +1,218 @@
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-div {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#nav-div a {
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+#nav-div a:hover {
+    background: #eee;
+}
+
+main h1,
+main h3,
+main p{
+    text-align: center;
+}
+main h3{
+    font-size: 2rem; /* Make h3 text bigger */
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+#Button_Teams {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#Button_Teams button {
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, background-image 0.2s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background-size: 40px 40px;
+    background-position: center right 10px;
+    background-repeat: no-repeat;
+    min-width: 220px;
+    text-align: left;
+    position: relative;
+    text-align: center;
+}
+
+/* Team Colors */
+#Button_Teams button#McLaren { background-color: #FF8700; }
+#Button_Teams button#Mercedes { background-color: #00D2BE; }
+#Button_Teams button#RedBull { background-color: #1c3cf0; }
+#Button_Teams button#Ferrari { background-color: #DC0000; }
+#Button_Teams button#Williams { background-color: #005AFF; }
+
+/* Show logo on hover */
+#Button_Teams button#McLaren:hover {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+#Button_Teams button#Mercedes:hover {
+
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+#Button_Teams button#RedBull:hover {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+#Button_Teams button#Ferrari:hover {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+#Button_Teams button#Williams:hover {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+.textD {
+    color: #000000;
+    padding: 0 18px;
+    border-radius: 12px;
+    font-size: 1.7rem;
+    text-align: middle;
+    display: block;
+    background: none;
+    margin: 0;
+}
+.text {
+    color: #ffffff;
+    padding: 0 18px;
+    border-radius: 12px;
+    font-size: 1.7rem;
+    text-align: middle;
+    display: block;
+    background: none;
+    margin: 0;
+}
+
+.williams-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #005AFF;      /* Blue background for the whole flex box */
+    border-radius: 16px;
+    padding: 24px 24px;
+}
+.Atlimg {
+    width: 900px;
+    max-width: 50vw;
+    height: auto;
+    border-radius: 12px;
+    margin: 0;
+    float: none;
+    display: block;
+}
+
+.Mercedes-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #00D2BE;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.AMGimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 1050px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.McL-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 38px 0 0 0;
+    background: #FF8700;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.McLimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 900px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.RedBull-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #1c3cf0;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.McLimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 900px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.Ferrari-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #DC0000;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.HPimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 950px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
