@@ -12,31 +12,29 @@ session_start();
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <div id="wrapper-div">
-        <header id="header-container">
-            <div id="logo-div">
-                <img src="assets/img/FIA.png" alt="Logo" width="70">
-            </div>
-            <nav id="nav-div">
-                <a href="../index.php">Home</a>
-                <a href="https://www.formula1.com/en/teams" target="_blank">Teams</a>
-                <a href="https://www.formula1.com/" target="_blank">F1.com</a>
-                <a href="https://www.fia.com/" target="_blank">FIA.com</a>
-            </nav>
-        </header>
+           <?php include "../components/header2.php"; ?>
         <main>
             <h1>Scuderia Ferrari HP</h1>
             <h3>Running Fourth place in the Constructors' Championship with 94 points</h3>
             <br />
-            <p>The legendary team from Maranello, Italy. Scuderia Ferrari is the oldest and most successful team in Formula 1 history. Founded by Enzo Ferrari in 1929, the team has competed in every world championship since the series began in 1950.</p>
+            <div class="Ferrari-flex">
+                <img src="../assets/img/HP Ferrari.jpg" class="HPimg">
+                <div class="text-group">
+                    <p class="text">
+                        The legendary team from Maranello, Italy. Scuderia Ferrari is the oldest and most successful team in Formula 1 history. Founded by Enzo Ferrari in 1929, the team has competed in every world championship since the series began in 1950.
+                    </p> <br /> <br />
+                    <p class="text">
+                        Under the leadership of Frédéric Vasseur and technical chief Loic Serra / Enrico Gualtieri. They shine through their double pit stop in order to maximize laptime on their drivers. Their current drivers are currently the 7 time world champion been knighted by the late queen Elizabeth and bears the No. 44, name is Sir Lewis Hamilton and the Monegasque who have broken his hometown's fable race after 93 years and wears the No. 16 Charles Leclerc.
+                    </p>
+                    <br /> <br />
+                    <p class="text">
+                        The only team that somehow become the most successful and unsuccessful Formula 1 team to ever existed. From failed double pit-stops to miscommunication. Ferrari is known for being a cursed team.
+                    </p>
+                </div>
+            </div>
             <br />
-            <p>With a record number of Constructors' and Drivers' Championships, Ferrari is synonymous with speed, passion, and the color red. Their current drivers are Charles Leclerc and Carlos Sainz, and the team continues to fight at the front of the grid.</p>
-            <br />
-            <p>Forza Ferrari!</p>
         </main>
-        <footer>
-            <p>&copy; <?php echo date('Y'); ?> F1 Hub. All rights reserved.</p>
-        </footer>
     </div>
+            <?php include "../components/footer.php"; ?>
 </body>
 </html>

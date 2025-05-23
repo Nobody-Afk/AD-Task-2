@@ -1,28 +1,61 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 #header-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: flex-end; /* Move content to the right */
+    background: #dc0000; /* Make the whole header red */
+    padding: 12px 24px;
+    margin-bottom: 24px;
+    border-bottom: none;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end; /* Move row content to the right */
+}
+
+#logo-div {
+    margin-right: auto; /* Push logo to the left */
+}
+
+#logo-div img {
+    display: block;
+}
+
+.top-red-bar {
+    width: 6px;
+    height: 48px;
+    margin: 0 18px;
+    border-radius: 3px;
 }
 
 #nav-div {
-    display: flex;
-    gap: 20px;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 30px;
+    margin-right: 32px; /* Adjust this value as needed */
 }
 
 #nav-div a {
-    color: #222;
+    margin: 0 10px;
     text-decoration: none;
+    color: #fff;
     font-weight: bold;
-    padding: 6px 12px;
-    border-radius: 4px;
-    transition: background 0.2s;
+    font-size: 1.1rem;
+    transition: color 0.2s;
 }
 
 #nav-div a:hover {
-    background: #eee;
+    color: #1c3cf0;
 }
 
 main h1,
@@ -30,7 +63,11 @@ main h3,
 main p{
     text-align: center;
 }
-
+main h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
 #Button_Teams {
     display: flex;
     justify-content: center;
@@ -64,30 +101,194 @@ main p{
 #Button_Teams button#RedBull { background-color: #1c3cf0; }
 #Button_Teams button#Ferrari { background-color: #DC0000; }
 #Button_Teams button#Williams { background-color: #005AFF; }
+#Button_Teams button#Array { background-color: #005AFF; }
 
 /* Show logo on hover */
 #Button_Teams button#McLaren:hover {
-    background-image: url('../img/mclaren.png');
-    background-color: #fff;
-    color: #FF8700;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
 }
 #Button_Teams button#Mercedes:hover {
-    background-image: url('../img/mercedes.png');
-    background-color: #fff;
-    color: #00D2BE;
+
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
 }
 #Button_Teams button#RedBull:hover {
-    background-image: url('../img/redbull.png');
-    background-color: #fff;
-    color: #1E41FF;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
 }
 #Button_Teams button#Ferrari:hover {
-    background-image: url('../img/ferrari.png');
-    background-color: #fff;
-    color: #DC0000;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
 }
 #Button_Teams button#Williams:hover {
-    background-image: url('../img/williams.png');
-    background-color: #fff;
-    color: #005AFF;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+#Button_Teams button#Array:hover {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 32px 32px;
+    padding-left: 40px;
+}
+.textD {
+    color: #000000;
+    padding: 0 18px;
+    border-radius: 12px;
+    font-size: 1.7rem;
+    text-align: middle;
+    display: block;
+    background: none;
+    margin: 0;
+}
+.text {
+    color: #ffffff;
+    padding: 0 18px;
+    border-radius: 12px;
+    font-size: 1.7rem;
+    text-align: middle;
+    display: block;
+    background: none;
+    margin: 0;
+}
+
+.williams-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #005AFF;      /* Blue background for the whole flex box */
+    border-radius: 16px;
+    padding: 24px 24px;
+}
+.Atlimg {
+    width: 900px;
+    max-width: 50vw;
+    height: auto;
+    border-radius: 12px;
+    margin: 0;
+    float: none;
+    display: block;
+}
+
+.Mercedes-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #00D2BE;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.AMGimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 1050px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.McL-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 38px 0 0 0;
+    background: #FF8700;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.McLimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 900px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.RedBull-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #1c3cf0;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.McLimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 900px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.Ferrari-flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 40px 0 0 0;
+    background: #DC0000;
+    border-radius: 15px;
+    padding: 24px 24px;
+}
+.HPimg {
+    width: 60vw;           /* Responsive large width */
+    max-width: 1200px;     /* Prevents it from being too huge on very wide screens */
+    min-width: 950px;      /* Prevents it from being too small */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 24px 0 0;    /* Only right margin for spacing from text */
+    display: block;
+}
+
+.center-standings-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Style for the Array button */
+#Array.array-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #DC0000 0%, #005AFF 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    min-width: 220px;
+    margin: 0 auto;
+}
+#Array.array-btn:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px) scale(1.03);
+}
+
+/* Center the standings output */
+.center-standings {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
 }
