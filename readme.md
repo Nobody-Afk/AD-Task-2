@@ -71,7 +71,7 @@ This project is a Formula 1 themed archive focused on the current top 5 teams co
 3. Add `.component` to the `.php` files if they are components code; example: `footer.component.php`.
 4. Add `.util` to the `.php` files if they are utility codes; example: `account.util.php`.
 5. Place Files in their respective folders.
-6. Different file naming Cases  
+6. Different file naming Cases
    | Naming Case | Type of code         | Example                           |
    | ----------- | -------------------- | --------------------------------- |
    | Pascal      | Utility              | Account.util.php                  |
