@@ -19,7 +19,7 @@ session_start();
     <h3>On fifth place in the Constructors' Championship with 37 points</h3>
     <br/>
     <div class="williams-flex">
-        <img src="../assets/img/Atlassian Williams.jpg" class="Atlimg">
+        <img src="../assets/img/Atlassian_Williams.jpg" class="Atlimg">
         <div class="text-group">
             <p class="text">
                 Driven on by the brilliance and passion of the late Sir Frank Williams from Grove, United Kingdom, Williams grew from humble beginnings to become a Formula 1 behemoth and unrivalled by all with the exception of Ferrari and McLaren in terms of enduring success, Williams has been racking up Grand Prix wins and having a share of that championship glory and known for nurturing some of the greatest talents in the sport. With 128 pole positions and 133 fastest laps under their name. Williams is a strong competitive team in the grid.</p>

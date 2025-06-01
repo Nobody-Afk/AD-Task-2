@@ -20,7 +20,7 @@ session_start();
             <h3>Running on Third place in the Constructors' Championship with 105 points</h3>
             <br/>
             <div class="RedBull-flex">
-                <img src="../assets/img/Oracle Redbull Racing.jpg" class="RBimg">
+                <img src="../assets/img/Oracle_Redbull_Racing.jpg" class="RBimg">
                 <div class="text-group">
                     <p class="text">
                         The Oracle Red Bull Racing team is based from Milton Keynes, United Kingdom competing under an Austrian racing license. A powerhouse team mostly known for their driver's aggressive style and a championship contender and doing everything to give their drivers an edge on the grid. With its first entry in 2005 Austrian Grand Prix, Red Bull Racing is being lead by team principal Christian Horner, known for his leadership in making Red Bull managed to obtain six World Constructors' Championship titles between 2010 to 2023. Although their success, the scale of their success over the following decade was staggering. After a first podium in 2006, the team hit their stride in 2009, claiming six victories and second in the constructors' standings.

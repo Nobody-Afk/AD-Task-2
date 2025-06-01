@@ -18,7 +18,7 @@ session_start();
             <h3>Running Fourth place in the Constructors' Championship with 94 points</h3>
             <br />
             <div class="Ferrari-flex">
-                <img src="../assets/img/HP Ferrari.jpg" class="HPimg">
+                <img src="../assets/img/HP_Ferrari.jpg" class="HPimg">
                 <div class="text-group">
                     <p class="text">
                         The legendary team from Maranello, Italy. Scuderia Ferrari is the oldest and most successful team in Formula 1 history. Founded by Enzo Ferrari in 1929, the team has competed in every world championship since the series began in 1950.

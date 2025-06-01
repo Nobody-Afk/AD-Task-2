@@ -19,7 +19,7 @@ session_start();
             <h3>Current leading team for the World Constructor's Championship, with an astonishing 246 points.</h3>
             <br/>
             <div class="McL-flex">
-                <img src="../assets/img/McLaren F1.jpg" class="McLimg">
+                <img src="../assets/img/McLaren_F1.jpg" class="McLimg">
                 <div class="text-group">
                     <p class="text">
                         The Papaya team is based from Woking, United Kingdom. With its entering since 1966 under the guidance and restless endeavour of its founder Bruce Mclaren. With current team principal Andrea Stella with CEO Zak Brown. Current WCC champions after snatching it from Redbull and Mercedes. This papaya team is currently a monster in the grid thanks to their engineers covering up something good during their pre-test during Bahrain last year.

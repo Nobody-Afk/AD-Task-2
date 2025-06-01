@@ -20,7 +20,7 @@ session_start();
             <h3>Running on second place in the Constructors' Championship with 141 points</h3>
             <br/>
             <div class="Mercedes-flex">
-                <img src="../assets/img/AMG Mercedes.jpg" class="AMGimg">
+                <img src="../assets/img/AMG_Mercedes.jpg" class="AMGimg">
                 <div class="text-group">
                     <p class="textD">
                         Mercedes-AMG PETRONAS Formula 1 Team is one of the most successful Formula 1 team. Known for winning Constructors' Championship and Drivers' Championship, winning 8 consecutive titles starting from 2014 to 2021 and 9 Drivers' Championship
